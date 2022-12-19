@@ -43,6 +43,10 @@
         h1{
             text-align: center;
         }
+        /* select{
+           
+       } */
+        
     </style>
 </head>
 
@@ -54,14 +58,18 @@
                 <input type="text" placeholder="Enter your Name">
             </div>
             <div class="inputfield">
-                <input type="number" placeholder=" Enter your Age">
+                <input type="number" placeholder=" Enter your Age"   min="0" >
             </div>
 
             <div class="inputfield">
-                <input type="text" placeholder="Enter your Gender">
+                <select>
+                <option>Female</option>
+                <option>Male</option>
+                </select>
+
             </div>
             <div class="inputfield">
-                <input type="number" placeholder="Enter your Weight">
+                <input type="number" placeholder="Enter your Weight" min="0">
             </div>
             <div class="inputfield">
                 <button >Submit</button>
